@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+.main{
+  max-height: 100vh;
+
+}
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +39,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.fs-7{
+  font-size:14px;
+  
+}
+.fs-8 {
+  color: gray;
+  font-size: 13px;
+}
+
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.mLocation {
+position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.mLocation:hover{
+  z-index: 4;
+}
+
+
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
+}
+
+.carousel-indicators button{
+    filter: invert(150%);
 }
